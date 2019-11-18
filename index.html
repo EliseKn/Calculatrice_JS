@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js"></script>
+    
+    <title>Calculatrice</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <table> 
+            <tr> 
+                <td colspan="3"><input id="output"/></td> 
+                <td><button id="button" onclick="refresh ()">C</button></td> 
+            </tr> 
+            <tr> 
+                <td><button id="number" onclick="afficher('1')">1</button></td> 
+                <td><button id="number" onclick="afficher('2')">2</button></td> 
+                <td><button id="number" onclick="afficher('3')">3</button></td> 
+                <td><button id="button" onclick="afficher('+')">+</button></td> 
+            </tr> 
+            <tr> 
+                <td><button id="number" onclick="afficher('4')">4</button></td> 
+                <td><button id="number" onclick="afficher('5')">5</button></td> 
+                <td><button id="number" onclick="afficher('6')">6</button></td> 
+                <td><button id="button" onclick="afficher('-')">-</button></td> 
+            </tr> 
+            <tr> 
+                <td><button id="number" onclick="afficher('7')">7</button></td> 
+                <td><button id="number" onclick="afficher('8')">8</button></td> 
+                <td><button id="number" onclick="afficher('9')">9</button></td> 
+                <td><button id="button" onclick="afficher('*')">x</button></td> 
+            </tr> 
+            <tr>
+                <td><button id="button" onclick="afficher('.')">.</button></td> 
+                <td><button id="number" onclick="afficher('0')">0</button></td> 
+                <td><button id="button" onclick="calculer()">=</button></td> 
+                <td><button id="button" onclick="afficher('/')">/</button></td> 
+            </tr> 
+        </table> 
+
+    </div>
+
+</body>
+</html>
